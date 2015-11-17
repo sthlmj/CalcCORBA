@@ -1,0 +1,12 @@
+module CalcApp  
+{  
+    interface CalcInterface  
+   {  
+    string add(in double x, in double y);  
+    string subtract(in double a, in double b);  
+    string multiply(in double x, in double y);  
+    string divide(in double a, in double b);  
+    string random();  
+    oneway void shutdown();  
+   };  
+}; 
